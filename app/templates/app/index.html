@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'app/styles.css' %}" rel="stylesheet" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>Your lucky draw</title>
+</head>
+
+<body>
+    <div class='container'>
+        <h1>
+            Make your numbers
+        </h1>
+
+        <button class="btn btn-outline-primary" type="submit" id='MLbutton'>Lotto Max</button>
+        <p id='MaxLotto' class='invisible'>{{ MaxLotto }} </p>
+
+        <button class="btn btn-outline-secondary" type="submit" id='649button'>649</button>
+        <p id='649' class='invisible'>{{ six49 }} </p>
+    </div>
+</body>
+
+<script>
+    $('#MLbutton').click(function () {
+        $('#MaxLotto').removeClass("invisible");
+    });
+
+    $('#649button').click(function () {
+        $('#649').removeClass("invisible");
+    });
+</script>
+
+</html>
