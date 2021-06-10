@@ -10,6 +10,10 @@ def index(request):
     MaxLotto_range = range(1,51)
     MaxLotto = predict.lotto(MaxLotto_range, 7)
     MaxLotto = sorted(MaxLotto)
+    
+    MaxLotto_range2 = range(1,50)
+    MaxLotto2 = predict.lotto(MaxLotto_range2, 7)
+    MaxLotto2 = sorted(MaxLotto2)
 
     six49_range = range(1, 50)
     six49 = predict.lotto(six49_range, 6)
@@ -18,5 +22,6 @@ def index(request):
 
     return render(request, 'app/index.html',{
         "MaxLotto": MaxLotto,
+        "MaxLotto2": MaxLotto2,
         "six49": six49
     })
