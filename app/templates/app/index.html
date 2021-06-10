@@ -22,6 +22,9 @@
 
         <button class="btn btn-outline-primary" type="submit" id='MLbutton'>Lotto Max</button>
         <p id='MaxLotto' class='invisible'>{{ MaxLotto }} </p>
+        
+        <button class="btn btn-outline-success" type="submit" id='MLbutton2'>Lotto Max2</button>
+        <p id='MaxLotto2' class='invisible'>{{ MaxLotto2 }} </p>
 
         <button class="btn btn-outline-secondary" type="submit" id='649button'>649</button>
         <p id='649' class='invisible'>{{ six49 }} </p>
@@ -31,6 +34,10 @@
 <script>
     $('#MLbutton').click(function () {
         $('#MaxLotto').removeClass("invisible");
+    });
+    
+    $('#MLbutton2').click(function () {
+        $('#MaxLotto2').removeClass("invisible");
     });
 
     $('#649button').click(function () {
