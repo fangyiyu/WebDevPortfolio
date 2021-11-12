@@ -1,5 +1,5 @@
 # WebDevPortfolio
-Some of the web apps I've created to demonstrate what I've learnt and what I find interesting in web development.
+Some of the web apps I've created demonstrating what I've learnt and what I find interesting in web development.
 
 ## Contents
 * __[Time Series Analysis](https://github.com/fangyiyu/Time_Series_Analysis/tree/master/TIme_Series_Analysis)__: A ```Django```-based web application in ```Python3``` and ```Javascript``` to predict Bitcoin Price.
