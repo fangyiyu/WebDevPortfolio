@@ -1,0 +1,15 @@
+[submodule "NLP_WebApplication"]
+	path = NLP_WebApplication
+	url = https://github.com/fangyiyu/NLP_WebApplication.git
+[submodule "Personal_website"]
+	path = Personal_website
+	url = https://github.com/fangyiyu/Personal_website.git
+[submodule "Fake_News_Detection"]
+	path = Fake_News_Detection
+	url = https://github.com/fangyiyu/Fake_News_Detection.git
+[submodule "ecommerce_web_application"]
+	path = ecommerce_web_application
+	url = https://github.com/fangyiyu/ecommerce_web_application.git
+[submodule "CS50_web_programming"]
+	path = CS50_web_programming
+	url = https://github.com/fangyiyu/CS50_web_programming.git
