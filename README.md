@@ -8,3 +8,4 @@ Some of the web apps I've created to demonstrate what I've learnt and what I fin
 * __[Ecommerce auction](https://github.com/fangyiyu/ecommerce_web_application)__: An eBay-like e-commerce auction web application made with ```python3```.  
 * __[CS50 Programming](https://github.com/fangyiyu/CS50_web_programming)__: Source code from lectures of Harvard University's CS50W and projects that I created.  
 * __[NLP WebApplication](https://github.com/fangyiyu/NLP_WebApplication/tree/b25d024efb4fd5a6f3f4f435073da3e8d0b0c132)__: A web application include text generation, sentimental analysis, fill mask, machine translation, question answering and text summarization using ```huggingface```.  
+* __[Lotto Generator](https://github.com/fangyiyu/Lotto_Generator/tree/main/Lotto_Generator)__: A simple generator to randomly generate lotto numbers.  
